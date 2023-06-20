@@ -7,8 +7,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/dzenis-h/Chrome-Extension?style=social)
 [![LinkedIn Follow](https://img.shields.io/badge/-Follow-blue?style=social&logo=linkedin&link=https://www.linkedin.com/in/dzenis-h/)](https://www.linkedin.com/in/dzenis-h/)
 [![GitHub Follow](https://img.shields.io/badge/-Follow-black?style=social&logo=github&link=https://github.com/dzenis-h)](https://github.com/dzenis-h)
-![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/stars/mlgcopjbmfifbhkdifcohfjleeafdakn)
 ![Tech Used](https://img.shields.io/badge/-HTML5%20%7C%20CSS3%20%7C%20JavaScript-E34F26?style=flat&logo=html5&logoColor=white)
+![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/stars/mlgcopjbmfifbhkdifcohfjleeafdakn)
+
 
 <img src="https://stackoverflow.com/users/flair/8146571.png?theme=dark&showIcon=true&showName=true&showBadges=true&showRep=true&showPosts=true&stackApps=true"/>
 
