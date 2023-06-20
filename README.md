@@ -10,16 +10,18 @@
 ![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/stars/mlgcopjbmfifbhkdifcohfjleeafdakn)
 ![Tech Used](https://img.shields.io/badge/-HTML5%20%7C%20CSS3%20%7C%20JavaScript-E34F26?style=flat&logo=html5&logoColor=white)
 
+<img src="https://stackoverflow.com/users/flair/8146571.png?theme=dark&showIcon=true&showName=true&showBadges=true&showRep=true&showPosts=true&stackApps=true"/>
+
 ##
 
 # Bigga Launcher™ 
 ![logo](https://github.com/dzenis-h/Chrome-Extension/blob/master/icon_128.png?raw=true)
 
-Bigga Launcher™️ is a Chrome extension that provides quick access to many popular development tools, including Twitter. Whether you are a fan of Elon Musk or just need a break from coding, Bigga Launcher lets you stay updated with the latest tweets from your favorite accounts. Bigga Launcher also has two buttons, one for opening all the links, and another for opening only the ones that you consider essential. Bigga is a great, lightweight, and fast extension for developers who want to optimize their workflow and have some fun. May I suggest that you clone this repo, make changes (e.i. add your favorite sites/tools/platforms), and use it as you please? But I would highly appreciate it if you make a pull request in order to lift this extension to its full potential.
+Bigga Launcher™️ is a Chrome extension that provides quick access to many popular development tools, including Twitter. Whether you are a fan of Elon Musk or just need a break from coding, Bigga Launcher lets you stay updated with the latest tweets from your favorite accounts. Bigga Launcher also has two buttons, one for opening all the links, and another for opening only the ones that you consider essential. Bigga is a great, lightweight, and fast extension for developers who want to optimize their workflow and have some fun. May I suggest that you clone this repo, make changes (e.g., add your favorite sites/tools/platforms), and use it as you, please? But I would highly appreciate it if you made a pull request in order to lift this extension to its full potential.
 
 ## Overview 👀
 
-I made this one just for fun, but I also refreshed my HTML/ CSS knowledge doing it. Two words -Good practice. This extension allows you to quickly access some of the most useful websites and tools for web development, such as GitHub, Stack Overflow, CodePen, and more. You can also customize the links according to your preferences and needs.
+I made this one just for fun, but I also refreshed my HTML and CSS knowledge by doing it. Two words: good practice. This extension allows you to quickly access some of the most useful websites and tools for web development, such as GitHub, Stack Overflow, CodePen, and more. You can also customize the links according to your preferences and needs.
 
 ![Screenshot of Bigga Launcher](https://drive.google.com/uc?export=view&id=1qstVqUJL7QmeovZOUbTo-7zYAGhhC51L)
 
