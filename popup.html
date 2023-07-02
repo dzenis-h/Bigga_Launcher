@@ -26,23 +26,43 @@
       <h1 class="logo">
         <img class="logo-icon" src="images/bigga_logo.ico" />
         Bigga Launcher
-        <span class="version">[1.5.1]</span>
+        <span class="version">[1.5.3]</span>
       </h1>
     </div>
-    <div class="modal-content">
-      <p class="yup flex">No one is here to help you - DRIVEN!</p>
+    <div
+      class="modal-content"
+      style="
+        display: flex;
+        flex-direction: row;
+        color: #000;
+        justify-content: center;
+        cursor: pointer;
+      "
+    >
+      <div class="flex" style="color: antiquewhite">
+        <a
+          href="https://dzenis.tech"
+          title="dzenis.tech"
+          target="_blank"
+          class="tech favs"
+          style="color: aliceblue"
+        >
+          Designed & Developed by -
+          <span style="display: inline-flex" class="yup">Dzenis H.</span>
+        </a>
+      </div>
+
     </div>
     <div class="modal-icons">
       <div class="flex-container">
-
- <div class="flex">
+        <div class="flex">
           <a
-            href="https://dzenis.tech"
-            title="dzenis.tech"
+            href="https://google.com"
+            title="Google"
             target="_blank"
-            class="tech"
+            class="tech favs"
           >
-            <img src="./images/favicon.png" alt="Dzenis H." />
+            <img src="./images/google.png" alt="Google" />
           </a>
         </div>
 
@@ -51,7 +71,7 @@
             href="https://www.github.com"
             title="GitHub"
             target="_blank"
-            class="tech"
+            class="tech favs"
           >
             <img src="./images/github.png" alt="GitHub" />
           </a>
@@ -62,7 +82,7 @@
             href="https://www.stackoverflow.com"
             title="Stack Overflow"
             target="_blank"
-            class="tech"
+            class="tech favs"
           >
             <img src="./images/so.png" alt="stackoverflow" />
           </a>
@@ -73,7 +93,7 @@
             href="https://chat.openai.com/chat"
             title="ChatGPT"
             target="_blank"
-            class="tech"
+            class="tech favs"
           >
             <img src="./images/gpt.svg" alt="Twitter" />
           </a>
@@ -84,7 +104,7 @@
             href="https://www.upwork.com"
             title="Upwork"
             target="_blank"
-            class="tech"
+            class="tech favs"
           >
             <img src="./images/upwork.png" alt="Upwork" />
           </a>
@@ -95,7 +115,7 @@
             href="https://www.linkedin.com"
             title="LinkedIn"
             target="_blank"
-            class="tech"
+            class="tech favs"
           >
             <img src="./images/linkedin.png" alt="LinkedIn" />
           </a>
@@ -122,7 +142,7 @@
             <img src="./images/yt.png" alt="youtube" />
           </a>
         </div>
-       
+
         <div class="flex">
           <a
             href="https://drive.google.com  "
@@ -188,7 +208,7 @@
             <img src="./images/namecheap.png" alt="NameCheap" />
           </a>
         </div>
-       
+
         <div class="flex">
           <a
             href="https://console.cloud.google.com"
@@ -199,15 +219,37 @@
             <img src="./images/gcp.png" alt="Google Cloud Platform" />
           </a>
         </div>
-        
       </div>
-      <div class="button" id="openLinksButton">
-        <div id="dub-arrow"><img src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true" alt="" id="openAllLinks"/></div>
-        <button>Open All Links</button>
+      <div>
+        <section class="buttons">
+          <div class="button" id="openAllLinks">
+            <div id="dub-arrow">
+              <img
+                src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true"
+                alt=""
+                id="openAllLinks"
+              />
+            </div>
+            <button>Open All Links</button>
+          </div>
+
+          <div class="button" id="openEssentialLinks">
+            <div id="dub-arrow">
+              <img
+                src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true"
+                alt=""
+                id="openEssentialLinks"
+              />
+            </div>
+            <button>Open Essentials</button>
+          </div>
+          <!-- </div> -->
+        </section>
       </div>
-      </div>
-      <hr />
     </div>
+
+    <hr />
+
     <script src="popup.js" defer></script>
   </body>
 </html>

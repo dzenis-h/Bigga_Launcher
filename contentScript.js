@@ -1,13 +1,43 @@
-// contentScript.js
+document.addEventListener("DOMContentLoaded", function () {
+  var openAllLinksButton = document.getElementById("openAllLinks");
 
-function openLinks(links) {
-  links.forEach(function (link) {
-    chrome.tabs.create({ url: link });
+  openAllLinksButton.addEventListener("click", function () {
+    // Get all links with a specific class
+    var links = Array.from(document.getElementsByClassName("tech"));
+
+    // Extract the URLs from the link elements and store them in an array
+    var urls = links.map(function (link) {
+      return link.href;
+    });
+
+    // Open each URL in a new tab
+    urls.forEach(function (url) {
+      window.open(url, "_blank");
+    });
+
+    // Close the popup after opening the links (optional)
+    window.close();
   });
-}
+});
 
-chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-  if (message.action === "openAllLinks") {
-    openLinks(message.links);
-  }
+document.addEventListener("DOMContentLoaded", function () {
+  var openAllLinksButton = document.getElementById("openAllLinks");
+
+  openAllLinksButton.addEventListener("click", function () {
+    // Get all links with a specific class
+    var links = Array.from(document.getElementsByClassName("favs"));
+
+    // Extract the URLs from the link elements and store them in an array
+    var urls = links.map(function (link) {
+      return link.href;
+    });
+
+    // Open each URL in a new tab
+    urls.forEach(function (url) {
+      window.open(url, "_blank");
+    });
+
+    // Close the popup after opening the links (optional)
+    window.close();
+  });
 });
